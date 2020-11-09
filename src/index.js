@@ -39,7 +39,7 @@ const transcribe = async () => {
     return transcription;
 }
 
-app.listen(3000, () => console.info('NodeJs Server started n listening on port ' + port))
+app.listen(port, () => console.info('NodeJs Server started n listening on port ' + port))
 
 module.exports = {
     app
